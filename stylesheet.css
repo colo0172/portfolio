@@ -90,25 +90,29 @@ a
 
 .navbar
 {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 10px 20px 10px 20px;
+  position: fixed;
 }
 
 .navitem
 {
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  background-color: #34d3ff;
-  padding: 10px 20px 10px 20px;
-  text-align: center;
+  background-color: white;
+  margin: 20px;
   border-radius: 20px;
 }
 
+.homebutton
+{
+}
+
+.huisimg
+{
+  padding-top: 2px;
+  width: 2.3vw;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
 
 
 
