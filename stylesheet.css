@@ -1,0 +1,137 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.fullscreen-bg
+{
+  width: auto;
+  height: 100vh;
+  background-image: url(images/background.png);
+  background-size: cover;
+}
+
+.headertext
+{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 4vw;
+ margin: 0;
+ color: #154c79;
+}
+
+.undertext
+{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 2vw;
+ margin: 0;
+ color: #063970;
+}
+
+.hometext
+{
+ display: flex;
+ flex-direction: column;
+ margin-top: 20vh;
+ margin-left: 10%;
+}
+
+
+
+
+
+
+.homeimg
+{
+ width: 100%;
+ border-radius: 20px;
+ transition: .2s;
+}
+
+.buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.button
+{
+  margin: 2% 2% 2% 0;
+  padding: 0;
+  width: 10%;
+}
+
+.homeimg:hover
+{
+  transition: .2s;
+  width: 110%;
+  box-shadow: 0 0 20px cyan;
+}
+
+.buttontext
+{
+  font-size: 0.8vw;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.navbar
+{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 20px 10px 20px;
+}
+
+.navitem
+{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #34d3ff;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.imagesgfx
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.imggfx
+{
+ transition: 1s;
+ width: 30%;
+ height: auto;
+ border-radius: 20px;
+}
+
+.imggfx:hover{
+  transition: .2s;
+  box-shadow: 0 0 30px black;
+}
